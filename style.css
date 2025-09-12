@@ -29,13 +29,14 @@ body {
 
 .linea {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 2%;
     border-top: 5px solid blue;
 }
 
 .p1 {
+    flex: 1 1 400px;
     font-size: 20px;
     margin: 0% 2%;
     padding: 3% 0%;
