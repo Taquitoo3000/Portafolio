@@ -39,3 +39,22 @@ body {
     margin: 2%;
     width: 70%;
 }
+
+.enlaces {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 1%;
+}
+
+.boton_enlace {
+    width: 100px;
+    background-color: cyan;
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 16px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
