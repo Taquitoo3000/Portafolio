@@ -31,8 +31,11 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 2%;
+}
+
+.division {
     border-top: 5px solid blue;
+    margin: 0% 10%;
 }
 
 .p1 {
