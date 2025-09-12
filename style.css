@@ -15,36 +15,36 @@ body {
 .titulo {
     color: cyan;
     padding: 10;
-    border: 5px solid blueviolet;
     margin: 20;
+    text-align: center;
 }
 
 .presentacion {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 2% 15%;
     justify-content: space-between;
 }
 
 .linea {
     display: flex;
     justify-content: center;
+    padding: 2%;
+    border-top: 5px solid blue;
 }
 
 .p1 {
     font-size: 20px;
-    margin: 2%;
-    width: 70%;
+    margin: 0% 2%;
+    padding: 3% 0%;
 }
 
 .enlaces {
     display: flex;
     justify-content: space-between;
     width: 50%;
-    margin: 1%;
+    margin: 0% 0%;
 }
 
 .boton_enlace {
