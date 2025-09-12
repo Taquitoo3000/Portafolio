@@ -29,6 +29,7 @@ body {
 
 .linea {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
     padding: 2%;
     border-top: 5px solid blue;
@@ -42,9 +43,9 @@ body {
 
 .enlaces {
     display: flex;
-    justify-content: space-between;
-    width: 50%;
-    margin: 0% 0%;
+    justify-content: center;
+    width: 100%;
+    gap: 200px;
 }
 
 .boton_enlace {
