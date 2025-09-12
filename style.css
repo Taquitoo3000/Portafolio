@@ -1,8 +1,38 @@
 body {
     background-color: black;
     color: white;
+    height: 100vh;
+    box-sizing: border-box;
 }
 
-strong {
+.destaque {
     color: cyan;
+}
+
+.titulo {
+    color: cyan;
+    padding: 10;
+    border: 5px solid blueviolet;
+    margin: 20;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: space-between;
+}
+
+.linea {
+    display: flex;
+    justify-content: center;
+}
+
+.p1 {
+    font-size: 20px;
+    margin: 2%;
+    width: 60%;
 }
