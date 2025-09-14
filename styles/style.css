@@ -67,7 +67,7 @@ main {
 }
 .subtitulo {
     color: var(--color2);
-    margin: 1% 30%;
+    margin: 1% 20%;
     font-size: 1.2rem;
 }
 
@@ -96,7 +96,8 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 50%
+    width: 50%;
+    margin: 0% 0% 2% 0%;
 }
 
 .division {
@@ -107,7 +108,7 @@ main {
 .p1 {
     flex: 1 1 400px;
     margin: 0% 2%;
-    padding: 3% 0%;
+    padding: 0% 0%;
     width: 600px;
 }
 
@@ -116,6 +117,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    margin: 1% 0%;
     gap: 16px;
 }
 
@@ -127,7 +129,19 @@ main {
     color: var(--color5);
     font-weight: 600;
     text-decoration: none;
-    border: 2px solid cyan;
+    border: 2px solid var(--color2);
+}
+
+.boton_cv {
+    width: 200px;
+    text-align: center;
+    padding: 13px 0;;
+    border: 2px solid var(--color2);
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color5);
+    margin: 0% 0% 2% 0%;
 }
 
 .boton_enlace:hover {
