@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+/* Formatos de estilos */
+
+:root {
+    --color1: black;
+    --color2: cyan;
+    --color3: blue;
+    --color4: darkblue;
+    --color5: white;
+}
+
+header {
+    padding: 2% 20%;
+}
+
+.menu {
+    border-radius: 10px;
+    padding: 0% 1%;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    background-color: var(--color3);
+}
+
+.boton_menu {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--color1);
+    padding: 1%;
+    margin: 0%;
+}
+
+.boton_menu:hover {
+    background-color: var(--color4);
+    color: var(--color2);
+}
+
+html, body {
+    height: 100%;
+    background-color: var(--color1);
+    color: white;
+    box-sizing: border-box;
+    font-family: "Orbitron", sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.imagen {
+    width: 200px;
+    border-radius: 100%;
+}
+
+main {
+    flex: 1;
+}
+
+.destaque {
+    color: var(--color2);
+}
+
+.titulo {
+    color: var(--color2);
+    margin: 0 0 0 0;
+    text-align: center;
+}
+.subtitulo {
+    color: var(--color2);
+    margin: 1% 30%;
+    font-size: 1.2rem;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 0%;
+    justify-content: space-between;
+}
+
+.caja {
+    padding: 1px;
+    margin: 1% 30%;
+    border: 2px solid var(--color2)
+}
+
+.presentacion_educacion {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 0%0%;
+}
+
+.linea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%
+}
+
+.division {
+    border-top: 5px solid var(--color3);
+    margin: 0% 20%;
+}
+
+.p1 {
+    flex: 1 1 400px;
+    margin: 0% 2%;
+    padding: 3% 0%;
+    width: 600px;
+}
+
+.enlaces {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.boton_enlace {
+    width: 50px;
+    text-align: center;
+    padding: 13px 0;
+    border-radius: 100px;
+    color: var(--color5);
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid cyan;
+}
+
+.boton_enlace:hover {
+    background-color: #272727;
+}
+
+footer {
+    background-color: #272727;
+    font-size: 0.8rem;
+    display: flex;
+}
+
+@media (max-width:1200px) {
+    .presentacion {
+        margin: 10% 0%;
+    }
+    .presentacion_educacion {
+        margin: 0% 0%;
+    }
+    .caja {
+        margin: 5% 1%;
+    }
+    .division {
+        margin: 0% 0%;
+    }
+    .titulo {
+        font-size: 1.4rem;
+    }
+    .linea {
+        width: 100%;
+    }
+    .p1 {
+        text-align: center;
+        margin: 10% 0%;
+        padding: 0% 0%;
+    }
+    .subtitulo {
+        margin: 2% 0%;
+    }
+}
