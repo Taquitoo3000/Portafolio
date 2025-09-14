@@ -47,9 +47,13 @@ html, body {
     font-size: 20px;
 }
 
-.imagen {
+.imagen_perfil {
     width: 200px;
     border-radius: 100%;
+}
+
+.imagen {
+    width: 150px;
 }
 
 main {
@@ -70,6 +74,9 @@ main {
     margin: 1% 20%;
     font-size: 1.2rem;
 }
+.subsubtitulo {
+    margin: 0% 0%;
+}
 
 .presentacion {
     display: flex;
@@ -87,22 +94,33 @@ main {
 
 .presentacion_educacion {
     display: flex;
-    flex-direction: column;
-    align-items: left;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
     margin: 0%0%;
 }
 
-.linea {
+.presentacion_certification {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 50%;
-    margin: 0% 0% 2% 0%;
+    flex-direction: column;
+    margin: 0% 0% 0% 30%;
+}
+
+.lista {
+    width: 100px;
 }
 
 .division {
     border-top: 5px solid var(--color3);
     margin: 0% 20%;
+}
+
+.linea {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0% 0% 2% 0%;
 }
 
 .p1 {
@@ -162,8 +180,13 @@ footer {
     .presentacion {
         margin: 10% 0%;
     }
+    .presentacion_certification{
+        margin: 0% 0% 0% 5%;
+    }
     .presentacion_educacion {
+        justify-content: center;
         margin: 0% 0%;
+        gap: 0px;
     }
     .caja {
         margin: 5% 1%;
@@ -176,6 +199,7 @@ footer {
     }
     .linea {
         width: 100%;
+        justify-content: center;
     }
     .p1 {
         text-align: center;
