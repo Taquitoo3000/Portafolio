@@ -144,6 +144,10 @@ main {
     margin: 0% 0% 2% 0%;
 }
 
+.boton_cv:hover {
+    background-color: #272727;
+}
+
 .boton_enlace:hover {
     background-color: #272727;
 }
