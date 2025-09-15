@@ -10,7 +10,7 @@
 }
 
 header {
-    padding: 2% 20%;
+    padding: 0% 20% 2% 20%;
 }
 
 .menu {
@@ -100,7 +100,18 @@ main {
 .caja {
     padding: 1px;
     margin: 1% 30%;
-    border: 2px solid var(--color2)
+    border: 2px solid var(--color2);
+}
+
+.caja_skills {
+    padding: 10px;
+    border: 2px solid var(--color2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    width: 200px;
 }
 
 .presentacion_educacion {
@@ -116,6 +127,14 @@ main {
     display: flex;
     flex-direction: column;
     margin: 0% 30% 0% 30%;
+}
+
+.presentacion_skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 1% 30%;
 }
 
 .lista {
@@ -241,6 +260,9 @@ footer {
         justify-content: center;
         margin: 0% 0%;
         gap: 0px;
+    }
+    .presentacion_skills {
+        margin: 5% 0%;
     }
     .caja {
         margin: 5% 1%;
