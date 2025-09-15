@@ -8,7 +8,8 @@
 </head>
 <body>
     <header>
-        <nav class="menu">
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+        <nav class="menu" id="menu">
             <a href="index.html" class="boton_menu">Home</a>
             <a href="education.html" class="boton_menu">Education</a>
             <a href="skills.html" class="boton_menu">Skills</a>
@@ -47,14 +48,27 @@
         <h2 class="subtitulo">Certifications</h2>
         <section class="presentacion_certification">
             <h3 class="subsubtitulo">Oracle Next Education G9 2025</h3>
-            <ul>
-                <li>Programing Logic with JavaScript <a href="https://app.aluracursos.com/degree/certificate/70e90b44-4c6b-4d5e-b25c-0958a4a258cb?lang">Show credential</a></li>
-                <li>Html and CSS <a href="https://app.aluracursos.com/certificate/eb1a046f-30b7-4262-abdf-ed01344deac4?lang">Show credential</a></li>
-                <li>Git and GitHub <a href="https://app.aluracursos.com/certificate/7c09be62-e2af-4490-8345-267f91e230e2?lang">Show credential</a></li>
-                <li>Prompt Engineering<a href="https://app.aluracursos.com/certificate/e608132c-b41d-4f7d-b245-ff8cd25f7ebd?lang">Show credential</a></li>
+            <ul class="lista">
+                <li>Programing Logic with JavaScript<br>Credential ID:
+                    70e90b44-4c6b-4d5e-b25c-0958a4a258cb<br><a class="boton_credential" href="https://app.aluracursos.com/degree/certificate/70e90b44-4c6b-4d5e-b25c-0958a4a258cb?lang">Show credential</a></li>
+                <li>Html and CSS<br>Credential ID:
+                    eb1a046f-30b7-4262-abdf-ed01344deac4<br><a class="boton_credential" href="https://app.aluracursos.com/certificate/eb1a046f-30b7-4262-abdf-ed01344deac4?lang">Show credential</a></li>
+                <li>Git and GitHub<br>Credential ID:
+                    7c09be62-e2af-4490-8345-267f91e230e2<br><a class="boton_credential" href="https://app.aluracursos.com/certificate/7c09be62-e2af-4490-8345-267f91e230e2?lang">Show credential</a></li>
+                <li>Prompt Engineering<br>Credential ID:
+                    e608132c-b41d-4f7d-b245-ff8cd25f7ebd<br><a class="boton_credential" href="https://app.aluracursos.com/certificate/e608132c-b41d-4f7d-b245-ff8cd25f7ebd?lang">Show credential</a></li>
+            </ul>
+        </section>
+        <div class="division"></div>
+        <h2 class="subtitulo">Languages</h2>
+        <section class="presentacion_certification">
+            <ul class="lista">
+                <li><strong>Spanish:</strong><br>Native</li>
+                <li><strong>English:</strong><br>Toefl ibt score: 486 (B1)</li>
             </ul>
         </section>
     </main>
     <footer>Made by Taquito</footer>
+    <script src="app.js"></script>
 </body>
 </html>

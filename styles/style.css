@@ -22,6 +22,17 @@ header {
     background-color: var(--color3);
 }
 
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    background-color: var(--color3);
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    color: var(--color2);
+    cursor: pointer;
+}
+
 .boton_menu {
     text-decoration: none;
     font-size: 1rem;
@@ -104,11 +115,16 @@ main {
 .presentacion_certification {
     display: flex;
     flex-direction: column;
-    margin: 0% 0% 0% 30%;
+    margin: 0% 30% 0% 30%;
 }
 
 .lista {
-    width: 100px;
+    margin: 1% 0%;
+    padding: 0% 2%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .division {
@@ -153,13 +169,27 @@ main {
 .boton_cv {
     width: 200px;
     text-align: center;
-    padding: 13px 0;;
+    padding: 13px 0;
     border: 2px solid var(--color2);
     border-radius: 50px;
     font-weight: 600;
     text-decoration: none;
     color: var(--color5);
     margin: 0% 0% 2% 0%;
+}
+
+.boton_credential {
+    text-align: center;
+    padding: 0.8px 5px;
+    border: 2px solid var(--color2);
+    border-radius: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    color: var(--color2);
+}
+
+.boton_credential:hover {
+    background-color: #272727;
 }
 
 .boton_cv:hover {
@@ -177,6 +207,30 @@ footer {
 }
 
 @media (max-width:1200px) {
+    header {
+        padding: 0;
+    }
+    .menu {
+        display: none;
+    }
+    .menu.active {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        text-align: center;
+        justify-content: space-between;
+        gap: 0px;
+        padding: 0% 0%;
+    }
+    .boton_menu {
+        padding: 2% 0%;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    .menu a {
+        display: block;
+    }
     .presentacion {
         margin: 10% 0%;
     }
