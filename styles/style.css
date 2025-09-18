@@ -272,6 +272,9 @@ footer {
     .presentacion_skills {
         margin: 5% 0%;
     }
+    .presentacion_experience{
+        margin: 0 0;
+    }
     .caja {
         margin: 5% 1%;
     }
